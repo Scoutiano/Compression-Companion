@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="202.0" prefWidth="530.0" style="-fx-background-color: #282828;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="huffman.FXMLDocumentController">
+   <children>
+      <Label layoutX="92.0" layoutY="76.0" text="Selected file is corrupted and cannot be decompressed" textFill="WHITE" />
+      <Button fx:id="okBtn" layoutX="245.0" layoutY="141.0" mnemonicParsing="false" onAction="#okBtnAction" style="-fx-background-color: #101010;" text="OK" textFill="WHITE" />
+   </children>
+</AnchorPane>

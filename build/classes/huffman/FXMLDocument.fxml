@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="375.0" prefWidth="569.0" style="-fx-background-color: #282828;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="huffman.FXMLDocumentController">
+   <children>
+      <Button fx:id="decompressBtn" layoutX="439.0" layoutY="204.0" mnemonicParsing="false" onAction="#decompressBtnAction" style="-fx-background-color: #383a9c; -fx-text-fill: #282828;" text="Decompress" textFill="#136827">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="headerBtn" layoutX="439.0" layoutY="260.0" mnemonicParsing="false" onAction="#headerBtnAction" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: #136827; -fx-text-fill: #282828;" text="Header" textFill="#ffb47b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextField fx:id="filePathTF" layoutX="27.0" layoutY="68.0" prefHeight="31.0" prefWidth="405.0" />
+      <Button fx:id="browseBtn" layoutX="439.0" layoutY="68.0" mnemonicParsing="false" onAction="#browseBtnAction" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: #d07720;" text="Browse...">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="compressBtn" layoutX="439.0" layoutY="150.0" mnemonicParsing="false" onAction="#compressBtnAction" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: #9f172b; -fx-text-fill: #282828;" text="Compress" textFill="#383a9c">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="statsBtn" layoutX="439.0" layoutY="315.0" mnemonicParsing="false" onAction="#statsBtnAction" prefHeight="31.0" prefWidth="106.0" style="-fx-background-color: #ffb47b; -fx-text-fill: #282828;" text="Stats" textFill="#9f172b">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Button>
+      <TextArea fx:id="infoTA" layoutX="28.0" layoutY="152.0" prefHeight="194.0" prefWidth="392.0" />
+   </children>
+</AnchorPane>
